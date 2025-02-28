@@ -37,7 +37,7 @@ function SignUp() {
       <form onSubmit={handleSubmit(create)} className="sign-up-container">
         <div className="input-group">
           <div className="title-box">
-            <h2>{currentState}</h2>
+            <h2>Sign Up</h2>
           </div>
           <Input
             label="Username"
@@ -70,7 +70,7 @@ function SignUp() {
           {errors.password && <p className="error">{errors.password.message}</p>}
         </div>
 
-        <Button className="sign-up-button" buttonText={currentState} type="submit" />
+        <Button className="sign-up-button" buttonText='Sign Up' type="submit" />
 
         
           <p>
